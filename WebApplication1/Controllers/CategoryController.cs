@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Mapster;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data;
 using WebApplication1.DTO;
@@ -23,7 +24,8 @@ namespace WebApplication1.Controllers
             //    CategoryDTO.Add(new CategoryDTO() { Name = item.Name, Id = item.Id });
             //}
 
-            var CategoryDTO = context.categories.Select(category => new CategoryDTO() { Id = category.Id, Name = category.Name });
+            //var CategoryDTO = context.categories.Select(category => new CategoryDTO() { Id = category.Id, Name = category.Name });
+            var CategoryDTO = context.categories.ToList().Adapt<List<CategoryDTO>>();
             return Ok(CategoryDTO);
         }
 
@@ -36,12 +38,15 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public IActionResult Create(CreateCategoriesDTO requist)
         {
-            var cat = new Category()
-            {
-                Name = requist.Name,
-                Discription = requist.Discription
-                
-            };
+
+            //var cat = new Category()
+            //{
+            //    Name = requist.Name,
+            //    Discription = requist.Discription
+
+            //};
+
+            var cat = requist.Adapt<Category>();
             context.categories.Add(cat);
             context.SaveChanges();
             return Ok();

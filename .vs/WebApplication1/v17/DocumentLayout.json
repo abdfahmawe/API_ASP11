@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\dto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\dto\\createcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F75BD33-9C90-4DDE-845D-309EA2FC8833}|WebApplication1\\WebApplication1.csproj|c:\\users\\hp\\documents\\asp11\\api\\webapplication1\\webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\DTO\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DTO\\CategoryDTO.cs",
@@ -54,7 +54,8 @@
               "RelativeToolTip": "WebApplication1\\DTO\\CategoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T15:08:00.351Z"
+              "WhenOpened": "2025-07-04T15:08:00.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,31 +65,33 @@
               "RelativeDocumentMoniker": "WebApplication1\\DTO\\CreateProductDTO.cs",
               "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\DTO\\CreateProductDTO.cs",
               "RelativeToolTip": "WebApplication1\\DTO\\CreateProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T14:52:41.004Z"
+              "WhenOpened": "2025-07-04T14:52:41.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreateCategoriesDTO.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\DTO\\CreateCategoriesDTO.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DTO\\CreateCategoriesDTO.cs",
               "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\DTO\\CreateCategoriesDTO.cs",
               "RelativeToolTip": "WebApplication1\\DTO\\CreateCategoriesDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T14:51:57.722Z"
+              "WhenOpened": "2025-07-04T14:51:57.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T14:42:46.313Z",
               "EditorCaption": ""
@@ -103,19 +106,21 @@
               "RelativeToolTip": "WebApplication1\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T14:37:25.914Z"
+              "WhenOpened": "2025-07-04T14:37:25.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\API\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T22:32:36.519Z"
+              "WhenOpened": "2025-07-03T22:32:36.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -127,7 +132,8 @@
               "RelativeToolTip": "WebApplication1\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T22:28:48.927Z"
+              "WhenOpened": "2025-07-03T22:28:48.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,7 +145,8 @@
               "RelativeToolTip": "WebApplication1\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T22:11:17.968Z"
+              "WhenOpened": "2025-07-03T22:11:17.968Z",
+              "EditorCaption": ""
             }
           ]
         }

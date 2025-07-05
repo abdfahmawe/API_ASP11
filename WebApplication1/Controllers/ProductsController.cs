@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Mapster;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data;
 using WebApplication1.DTO;
@@ -28,14 +29,18 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public IActionResult Create(CreateProductDTO requist)
         {
-            var product = new Product()
+            try
             {
-                Name = requist.Name,
-                Discription = requist.Discription
-            };
-            context.products.Add(product);
-            context.SaveChanges();
-            return Ok();
+                var product = requist.Adapt<Product>();
+                context.products.Add(product);
+                context.SaveChanges();
+                return Ok();
+            }
+            catch(Exception error )
+            {
+                return StatusCode(500, new { message = "error equard"  , details = error.InnerException.Message });
+
+            }
         }
         [HttpDelete("{id}")]
         public IActionResult Delette(int id)
